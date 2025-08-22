@@ -1,0 +1,64 @@
+body {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f0f0f0;
+}
+
+#main-container {
+  display: flex;
+  align-items: flex-start; /* Align items to the top */
+}
+
+#ball-list-container {
+  width: 200px; /* Increased width for name and ball */
+  padding: 10px;
+  border: 2px solid #333;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 20px;
+}
+
+.ball-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.ball-name {
+  font-size: 14px;
+  font-weight: bold;
+  width: 70px; /* Fixed width for names */
+  text-align: right;
+  margin-right: 10px;
+}
+
+.ball-display {
+  border-radius: 50%;
+  border: 1px solid #555;
+}
+
+#game-container {
+  position: relative;
+  border: 1px solid black;
+}
+
+#score-table {
+  margin-top: 20px;
+  border-collapse: collapse;
+  width: 200px;
+}
+
+#score-table th, #score-table td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+  font-size: 20px;
+}
+
+#score-table th {
+  background-color: #ddd;
+}
