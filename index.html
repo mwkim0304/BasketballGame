@@ -8,18 +8,18 @@
   <h1>농구공 게임</h1>
   <div id="main-container">
     <div id="ball-list-container"></div>
-    <div id="game-container">
-      <canvas id="game-canvas"></canvas>
+    <div id="game-and-score-container">
+      <div id="game-container">
+        <canvas id="game-canvas"></canvas>
+      </div>
+      <table id="score-table">
+        <tr>
+          <th>점수</th>
+          <td id="score">0</td>
+        </tr>
+      </table>
     </div>
   </div>
-  <table id="score-table">
-    <tr>
-      <th>점수</th>
-    </tr>
-    <tr>
-      <td id="score">0</td>
-    </tr>
-  </table>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.18.0/matter.min.js"></script>
   <script src="game.js"></script>
 </body>

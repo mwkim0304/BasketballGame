@@ -25,7 +25,7 @@ body {
 .ball-item {
   display: flex;
   align-items: center;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .ball-name {
@@ -46,15 +46,21 @@ body {
   border: 1px solid black;
 }
 
+#game-and-score-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 #score-table {
-  margin-top: 20px;
+  margin-top: 10px;
   border-collapse: collapse;
   width: 200px;
 }
 
 #score-table th, #score-table td {
   border: 1px solid black;
-  padding: 8px;
+  padding: 5px;
   text-align: center;
   font-size: 20px;
 }
